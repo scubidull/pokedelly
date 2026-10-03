@@ -382,7 +382,7 @@ function colorOf(t) {
 function grid(keep) {
   document.querySelector("nav").hidden = true;
   hist = [];
-  var h = '<h1>Pokédex dos gostos</h1><div class="grid">';
+  var h = '<h1>Pokédex da Cadelly</h1><div class="grid">';
   D.slice(0, shown).forEach(function (p, i) {
     h +=
       '<button class="gc" data-k="' +
